@@ -11,7 +11,7 @@ public class CurrencyFormatter {
 		scanner.close();
 		
 		String us = NumberFormat.getCurrencyInstance(Locale.US).format(payment);
-		String india = NumberFormat.getCurrencyInstance(new Locale("en", "in")).format(payment);
+		String india = NumberFormat.getCurrencyInstance(new Locale("en", "ug")).format(payment);
 		String china = NumberFormat.getCurrencyInstance(Locale.CHINA).format(payment);
 		String france = NumberFormat.getCurrencyInstance(Locale.FRANCE).format(payment);
 		
